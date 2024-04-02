@@ -10652,12 +10652,25 @@ ol.commentlist li .star-rating{
 	width:100%;
 	margin-bottom:0;
 }
+
+
+.wt-box .wt-media img {
+	width: 360px;
+	height: 225px !important;
+}
+
+
 @media only screen and (max-width:768px){
 	.wt-media > img,
 		.wt-media a > img{
 			width:100%;
 	}	
 }
+
+.owl-carousel .owl-nav button.owl-next {
+	background: red;
+}
+
 /*======================================
 30. Customize  Grouping css 
 ======================================*/
