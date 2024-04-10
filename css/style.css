@@ -12037,3 +12037,7 @@ ol.commentlist li::after {
 .b-detail-social{display: block !important;}
 .b-detail-social .pull-left{float: none;}
 }
+.owl-carousel .owl-stage {
+	display:flex;
+	align-items: center;
+}
