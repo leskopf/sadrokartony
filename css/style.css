@@ -11618,6 +11618,7 @@ ol.commentlist li::after {
 .animate_line .wt-icon-box-wraper{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	height: 100%;
 }
 .animate_line:after,
 .animate_line:before{
