@@ -763,9 +763,14 @@ h2 {
   font-family:Roboto;	
   font-weight: 600;	
   font-size: 24px;
-  line-height:24px;
   color:#1a1a1a;
   font-size:3rem;
+}
+@media only screen and (max-width:768px) {
+	h2 {
+		font-size: 1rem;
+		line-height: 1.5em;
+	}
 }
 h3 {
   font-family:Roboto;	
@@ -6984,7 +6989,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	display:table;	
 }
 .latest-blog-3.post-overlay{
-	height:552px;
+	height: 541px;
 }
 .latest-blog-3.post-overlay .wt-post-info .post-overlay-position{
 	display:table-cell;
@@ -10814,7 +10819,7 @@ ol.commentlist li::after {
 .wt-team-one{
 	position:relative;
 }
-.wt-team-one .wt-team-media img{width: 100%;}
+.wt-team-one .wt-team-media img{width: auto; max-height: 245px;}
 
 .wt-team-one .wt-team-info p{
 	margin-bottom:20px;
@@ -11494,7 +11499,7 @@ ol.commentlist li::after {
 .about-com-pic img{width:100%;}
 .about-com-pic-2 img{
 	width: 100%;
-	height: 540px;
+	height: 567px;
 	object-fit: cover;
 	object-position: center;
 	padding-right: 15px;
